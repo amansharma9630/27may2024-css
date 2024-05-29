@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p{
+            width: 600px;
+            height: 600px;
+            background-color: blueviolet;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .common{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .blue{
+            background: blue;
+            top: 0px;
+            right: 0px;
+            border-bottom-right-radius: 300px;
+            border-top-left-radius: 300px;
+        }
+        .green{
+            background: green;
+            bottom: 0px;
+            right: 0px;
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+
+        }
+        .yellow{
+            background: yellow;
+            bottom: 0px;
+            left: 0px;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+
+        }
+        .black{
+            background: red;
+            top: 0px;
+            left: 0px;
+            border-top-right-radius: 300px;
+            border-bottom-left-radius: 300px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div class="common c1 blue"></div>
+        <div class="common c2 green"></div>
+        <div class="common c3 yellow"></div>
+        <div class="common c4 black"></div>
+    </div>
+    
+</body>
+</html>
